@@ -1,4 +1,50 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.choiceframe {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 70%;
+}
+
+.opt1, .opt2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	width: 40%;
+	height: 100%;
+}
+
+.optlink {
+	margin: 0 auto;
+	padding: none;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .optimg {
-	width: 30%;
-	height: 50%; 
+	width: 100%;
+	height: 95%;
+}
+
+#choicetitles {
+	width: 100%;
+	height: 20%;
+}
+
+h2 {
+	margin: 0 auto;
+}
+
+p {
+	width: 100%;
+	text-align: center;
 }
