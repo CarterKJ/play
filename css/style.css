@@ -13,7 +13,6 @@
 	font-style: normal;
 	font-display: swap;
 }
-/* end of fonts */
 
 /* Fullsize page */
 html, body {
@@ -73,11 +72,9 @@ h1 {
 	font-size: 700%;
 	margin: 10% 0 0 0;
 }
-
 .subtitle {
 	font-size: 250%;
 }
-
 #startbutton {
 	font-size: 300%;
 	color: #000;
@@ -87,7 +84,11 @@ h1 {
 	text-transform: uppercase;
 	border: outset;
 }
-/* end of home page font style*/
+
+/* Spacing for all main buttons */
+.buttonwrap {
+	margin: 2% 0 0 0;
+}
 
 /* Choice pages font style */
 .vignette {
@@ -98,19 +99,20 @@ h1 {
 	background-color: #FFF;
 }
 
-/* Misc. */
+/* Apply Roboto and sizing to everything */
 h2 {
 	margin: 0 5%;
 	font-family: 'Roboto';
 	width: 100%;
 }
-
 p, a, li {
 	width: 100%;
 	text-align: center;
 	font-family: 'Roboto';
+	list-style-position: inside;
 }
 
+/* Misc. */
 .container {
  	display: flex;
     justify-content: space-between; 
@@ -121,11 +123,8 @@ p, a, li {
     flex: 1;
 } 
 **/
-
 .subtitle-2 {
 	text-align: center;
 	font-family: 'Gameplay';
 	font-size: 200%;
 }
-
-/* end of misc. */
